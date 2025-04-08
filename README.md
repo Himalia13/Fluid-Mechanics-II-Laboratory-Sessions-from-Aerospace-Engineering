@@ -7,7 +7,7 @@ This repository contains the laboratory sessions for **Fluid Mechanics II** in t
 ## 📑 Table of Contents
 1. [Repository Structure](#-repository-structure)
 2. [Project Descriptions](#-project-descriptions)
-- [Flow over a cylinder. Part I](#1-flow-over-a-cylinder-part-i-numerical-analysis-with-ansys-fluent)
+   - [Flow over a cylinder. Part I](#1-flow-over-a-cylinder-part-i-numerical-analysis-with-ansys-fluent)
 
 3. [How to Use](#-how-to-use)
 4. [Requirements](#%EF%B8%8F-requirements)
