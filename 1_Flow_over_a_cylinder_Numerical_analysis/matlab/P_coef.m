@@ -10,8 +10,6 @@ archivos = {'0.1_PC.txt','1_PC.txt', '4_PC.txt', '10_PC.txt', '20_PC.txt', '30_P
 % Re_vals = [4, 10, 20, 30, 45, 70];
 % archivos = {'4_PC.txt', '10_PC.txt', '20_PC.txt', '30_PC.txt','45_PC.txt','70_PC.txt'};
 
-Re_vals = [4, 4];
-archivos = {'20_PC.txt', '1.txt'};
 
 % Crear figura combinada
 fig_comb = figure(6);
