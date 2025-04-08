@@ -48,12 +48,21 @@ Through this lab, students will connect theoretical fluid mechanics concepts wit
 
 #### Steps to Run the Simulation (All the rest is already set up)
 
-1. **Open the project files (`*.wbpz`)** in Ansys Workbench and immediately click **"Save As"** to escape from archive mode and create a (`*.wbpj` and  a `*steady_file` or `*transient_file`) ![Visualization](repo_img/1.png).
+1. **Open the project files (`*.wbpz`)** in Ansys Workbench and immediately click **"Save As"** to escape from archive mode and create a (`*.wbpj` and  a `*steady_file` or `*transient_file`) 
+
+<p align="center">
+  <img src="repo_img/1.png" alt="Visualization" style="margin-top: 16px; margin-bottom: 16px;" />
+</p>
+
 2. **Right-click on "Setup"** and choose **"Edit"** to access the simulation settings.
 3. In the **General** settings, select **"Double Precision"** and set the **number of cores to 4**.
 4. Go to **Boundary Conditions** and update the **inlet velocity** as needed. Make sure the velocity is also updated in the **Reference Values**.
 5. **Initialize** the solution and click **"Run Calculation"** to start the simulation.
-6. For both **steady and transient** simulations, the files for **pressure coefficient**, **skin friction coefficient**, and **oscillation frequency** will be saved in the directory shown in the **console output** (![Alt text](repo_img/2.png)).
+6. For both **steady and transient** simulations, the files for **pressure coefficient**, **skin friction coefficient**, and **oscillation frequency** will be saved in the directory shown in the **console output** .
+<p align="center">
+  <img src="repo_img/2.png" alt="Console output" style="margin-top: 16px; margin-bottom: 16px;" />
+</p>
+
 7. Generate the **vorticity contour plots** and **pathlines for streamlines** to visualize the flow.
 8. For **transient simulations**, the vorticity snapshots are saved in the same folder as for the **pressure coefficient**, **skin friction coefficient**, and **oscillation frequency**. These images can be combined into an animation using the provided `join.m` script.
 
